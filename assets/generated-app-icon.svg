@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="80" x2="900" y2="980" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A855F7"/>
+      <stop offset="0.45" stop-color="#7C19FF"/>
+      <stop offset="1" stop-color="#4C14C7"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(780 250) rotate(90) scale(220)">
+      <stop stop-color="#7FFFD4" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#7FFFD4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(240 780) rotate(90) scale(260)">
+      <stop stop-color="#2F0A8F" stop-opacity="0.65"/>
+      <stop offset="1" stop-color="#2F0A8F" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+  </defs>
+  <rect width="1024" height="1024" rx="260" fill="url(#bg)"/>
+  <circle cx="780" cy="250" r="220" fill="url(#glowA)" filter="url(#blur)"/>
+  <circle cx="240" cy="780" r="250" fill="url(#glowB)" filter="url(#blur)"/>
+  <circle cx="420" cy="568" r="132" fill="#FFFFFF"/>
+  <circle cx="592" cy="396" r="60" fill="#FFFFFF"/>
+</svg>
